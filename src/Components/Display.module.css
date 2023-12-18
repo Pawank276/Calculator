@@ -1,0 +1,18 @@
+
+.screen{
+    border: 3px solid white;
+    height: 85px;
+    border-bottom: none;
+    background-color: black;
+    overflow:hidden;
+}
+.btnContainer{
+    border: 3px solid white;
+    border-radius: 0% 0% 5% 5%;
+    border-top: none;
+    height: 70vh;
+    display: grid;
+    padding: 15px 10px 0px 12px;
+    grid-template-rows:repeat(6,16%);
+    grid-template-columns:repeat(3,33%);
+}
